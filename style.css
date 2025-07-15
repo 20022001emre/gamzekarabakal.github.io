@@ -175,7 +175,7 @@ h2.section-title::after {
     color: var(--white-text);
 }
 
-/* Hero Section */
+/* Hero Section (Sadece index.html için geçerli) */
 .hero-section {
     background: url('https://via.placeholder.com/1920x800/333/fff?text=Gamze+Karabakal+-+Web+Siteniz') no-repeat center center/cover;
     color: var(--white-text);
@@ -223,6 +223,26 @@ h2.section-title::after {
     margin-bottom: 40px;
     color: #eee;
 }
+
+/* İç Sayfalar İçin Hero */
+.page-hero {
+    background-color: var(--dark-bg);
+    color: var(--white-text);
+    padding: 100px 20px 60px;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 3em;
+    color: var(--white-text);
+}
+
+.page-hero p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #ccc;
+}
+
 
 /* Hakkımda Bölümü */
 .about-section {
@@ -466,6 +486,10 @@ h2.section-title::after {
         font-size: 1.5em;
     }
 
+    .page-hero h1 {
+        font-size: 2.5em;
+    }
+
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -524,6 +548,10 @@ h2.section-title::after {
     }
     .hero-content p {
         font-size: 1em;
+    }
+
+    .page-hero h1 {
+        font-size: 2em;
     }
 
     h2.section-title {
