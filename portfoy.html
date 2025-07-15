@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamze Karabakal - Portföy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title"><a href="index.html">Gamze Karabakal</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="hakkimda.html">Hakkımda</a></li>
+                    <li><a href="hizmetler.html">Hizmetler</a></li>
+                    <li><a href="portfoy.html">Portföy</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-hero">
+        <div class="container">
+            <h1>Portföyüm</h1>
+            <p>Gerçekleştirdiğim projelerden bazılarını inceleyin.</p>
+        </div>
+    </div>
+
+    <section class="section-padding portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Çalışmalarım</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=Marka+Kimligi+Projesi" alt="Marka Kimliği Projesi">
+                    <h3>Marka Kimliği Tasarımı</h3>
+                    <p>Bir başlangıç şirketi için modern ve akılda kalıcı marka kimliği oluşturulması.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=E-ticaret+Web+Sitesi" alt="E-ticaret Web Sitesi">
+                    <h3>E-ticaret Platformu Geliştirme</h3>
+                    <p>Kullanıcı dostu arayüze sahip, mobil uyumlu bir e-ticaret sitesinin baştan sona geliştirilmesi.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=Sosyal+Medya+Kampanyasi" alt="Sosyal Medya Kampanyası">
+                    <h3>Sosyal Medya Kampanyası</h3>
+                    <p>Bir gıda markası için interaktif ve yüksek etkileşimli sosyal medya kampanyası yönetimi.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=Blog+ve+Icerik+Yazarligi" alt="Blog ve İçerik Yazarlığı">
+                    <h3>Kurumsal Blog İçerikleri</h3>
+                    <p>Teknoloji firması için SEO uyumlu ve bilgilendirici blog makaleleri serisi yazımı.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=Kurumsal+Video" alt="Kurumsal Video">
+                    <h3>Kurumsal Tanıtım Videosu</h3>
+                    <p>Bir inşaat şirketi için modern ve profesyonel kurumsal tanıtım filminin prodüksiyonu.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e0e0e0/ffffff?text=UI/UX+Tasarim" alt="UI/UX Tasarım">
+                    <h3>Mobil Uygulama UI/UX Tasarımı</h3>
+                    <p>Yeni bir mobil sağlık uygulaması için kullanıcı deneyimi (UX) ve arayüz (UI) tasarımı.</p>
+                    <a href="#" class="btn-text-link">Detayları Gör</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Gamze Karabakal. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            hamburgerMenu.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
