@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Gamze Karabakal Etiket Matbaa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Bölümü - Tüm sayfalarda aynı olacak -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html" class="block">
+                    <img src="GAMZE.jpg" alt="Gamze Karabakal Etiket Matbaa Logo" class="h-auto w-40 max-w-full rounded-lg">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Ana Sayfa</a></li>
+                    <li><a href="hizmetler.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Hizmetlerimiz</a></li>
+                    <li><a href="portfolyo.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Magnet</a></li>
+                    <li><a href="hakkimizda.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Hakkımızda</a></li>
+                    <li><a href="iletisim.html" class="text-primary font-bold transition-colors duration-300">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana İçerik Bölümü -->
+    <main class="py-12">
+        <div class="container mx-auto px-4">
+
+            <!-- İletişim Tanıtım Bölümü -->
+            <section id="contact-intro" class="text-center mb-12 bg-white p-8 rounded-lg shadow-lg">
+                <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Bize Ulaşın</h1>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Tüm soru, görüş ve talepleriniz için bizimle iletişime geçmekten çekinmeyin. Ekibimiz size en kısa sürede yardımcı olacaktır.
+                </p>
+            </section>
+
+            <!-- İletişim Bilgileri ve Form Bölümü -->
+            <section id="contact-details-form" class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- İletişim Bilgileri -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">İletişim Bilgilerimiz</h2>
+                    <div class="space-y-4 text-lg text-gray-700">
+                        <p><strong>Adres:</strong> Örnek Cad. No: 123, Örnek Mah., Örnek İlçe, Örnek Şehir</p>
+                        <p><strong>Telefon:</strong> <a href="tel:+905520800481" class="text-primary hover:underline">+90 552 080 04 81</a></p>
+                        <p><strong>E-posta:</strong> <a href="mailto:info@gamzekarabakal.com" class="text-primary hover:underline">Gamzeyiildirimm@icloud.com</a></p>
+                        <p><strong>Çalışma Saatleri:</strong> Pazartesi - Salı - Çarşamba - Perşembe - Cuma - Cumartesi: 09:00 - 18:00</p>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="font-semibold text-xl text-gray-900 mb-4">Sosyal Medya</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-700 hover:text-primary transition-colors duration-300">Facebook</a>
+                            <a href="#" class="text-gray-700 hover:text-primary transition-colors duration-300">Instagram</a>
+                            <a href="#" class="text-gray-700 hover:text-primary transition-colors duration-300">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- İletişim Formu (Yer Tutucu) -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Bize Mesaj Gönderin</h2>
+                    <form action="#" method="POST" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary" placeholder="Adınız Soyadınız">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary" placeholder="ornek@mail.com">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700">Telefon Numaranız (Opsiyonel)</label>
+                            <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary" placeholder="+90 5XX XXX XX XX">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Mesajınız</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary" placeholder="Mesajınızı buraya yazın..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Gönder</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Harita Bölümü (Yer Tutucu) -->
+            <section id="map-section" class="mb-12 bg-white p-8 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-6">Konumumuz</h2>
+                <div class="w-full h-96 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center text-gray-500 text-xl font-semibold">
+                    <!-- Google Haritalar veya başka bir harita embed kodu buraya gelecek -->
+                    <p>Harita Yer Tutucusu (Örn: Google Haritalar Embed Kodu)</p>
+                    
+                </div>
+            </section>
+
+            <!-- WhatsApp İletişim Çağrısı -->
+            <section id="cta" class="text-center bg-primary text-white p-10 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-bold mb-4">Hızlı İletişim İçin WhatsApp!</h2>
+                <p class="text-lg mb-6">Tüm sorularınız için bize doğrudan WhatsApp üzerinden ulaşabilirsiniz.</p>
+                <a href="https://wa.me/+905520800481" class="btn btn-whatsapp" target="_blank">WhatsApp ile Yazın</a>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer Bölümü -->
+    <footer class="bg-gray-900 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">&copy; 2025 Gamze Karabakal Etiket Matbaa. Tüm Hakları Saklıdır.</p>
+            <div class="social-links flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Facebook</a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
